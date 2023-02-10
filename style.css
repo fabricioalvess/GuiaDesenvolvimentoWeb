@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+    font-size: 2.8em;
+    text-align: center;
+    font-weight: bolder;
+}
+h3{
+    font-size: 2em;
+    font-weight: 500;
+}
+p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.sessaoBackground{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    
+}
+
+.containerTopoDoSIte{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.containerTopoSiteTexto{
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.containerTopoSiteImagem{
+    background-image: url("357.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 700px;
+
+}
+/*slogan*/
+.slogan{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom: 5px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
+    
+}
+
+/*videosss*/
+
+
+.containerDosVideos{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.containerVideo{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.containerCanalVideo{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerCanalVideo img{
+    width: 150px;
+    border-radius: 150px;
+    
+}
+
+
+@media (max-width: 700px){
+    iframe{
+        width: 400px;
+    }
+    .containerTopoDoSIte{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerTopoSiteTexto{
+        width: 100%;
+        display: flex;
+    }
+    .containerTopoSiteImagem{
+        width: 100%;
+        display: flex;
+    }
+    .slogan{
+        padding: 10px;
+    }
+    .containerDosVideos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    .containerVideo{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .containerCanalVideo{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerCanalVideo img{
+        width: 150px;
+        border-radius: 150px;
+        
+    }
+
+ }
